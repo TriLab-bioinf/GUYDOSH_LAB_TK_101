@@ -1,0 +1,53 @@
+# Metadata
+reference:
+    abundant_rna_file: data/00ref/abundant_rna.fasta
+    ensembl_ver: 38
+    ensembl_gtf: data/00ref/hg38.ensGene.gtf
+    genome_build: hg38
+    genome_file: data/00ref/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 
+    star_index: 00ref
+    genome_source: ucsd
+remove_duplicated_reads: true
+star_db:
+    sjdbOverhang: 49 
+samples:
+    AK9197-10_S10_L001:
+    AK9197-10_S10_L001:
+    AK9197-10_S10_L002:
+    AK9197-10_S10_L002:
+    AK9197-1_S1_L001:
+    AK9197-1_S1_L001:
+    AK9197-1_S1_L002:
+    AK9197-1_S1_L002:
+    AK9197-2_S2_L001:
+    AK9197-2_S2_L001:
+    AK9197-2_S2_L002:
+    AK9197-2_S2_L002:
+    AK9197-3_S3_L001:
+    AK9197-3_S3_L001:
+    AK9197-3_S3_L002:
+    AK9197-3_S3_L002:
+    AK9197-4_S4_L001:
+    AK9197-4_S4_L001:
+    AK9197-4_S4_L002:
+    AK9197-4_S4_L002:
+    AK9197-5_S5_L001:
+    AK9197-5_S5_L001:
+    AK9197-5_S5_L002:
+    AK9197-5_S5_L002:
+    AK9197-6_S6_L001:
+    AK9197-6_S6_L001:
+    AK9197-6_S6_L002:
+    AK9197-6_S6_L002:
+    AK9197-7_S7_L001:
+    AK9197-7_S7_L001:
+    AK9197-7_S7_L002:
+    AK9197-7_S7_L002:
+    AK9197-8_S8_L001:
+    AK9197-8_S8_L001:
+    AK9197-8_S8_L002:
+    AK9197-8_S8_L002:
+    AK9197-9_S9_L001:
+    AK9197-9_S9_L001:
+    AK9197-9_S9_L002:
+    AK9197-9_S9_L002:
