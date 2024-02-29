@@ -198,10 +198,11 @@ rule counts:
     output: counts = "results/05counts/read_counts",
             summary = "results/05counts/read_counts.summary"
     params: "-t CDS -g gene_id -O -s 2 -J -R BAM -p --ignoreDup -M --fraction"  # Current params ignore multimappers and duplicated reads
-                                                                   # -p = count fragments instead of individual reads
+                                                                   # -p  --countReadPairs = count fragments instead of individual reads
                                                                    # -M = include multi-mapping reads -O count reads mapping overlapping features
                                                                    # --fraction = multimapped reads will be caused as a fraction 
                                                                    #              instead of 1 (1/x where x = numb alignments reported for same read)
+                                                                   # -s = stranded [0 = unstranded ; 1 = forward -stranded ; 2 = reverse-stranded]
     benchmark:
         "benchmarks/counts/counts.tsv"
     threads: 16
